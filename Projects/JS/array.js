@@ -31,3 +31,4 @@ var listOfEmployees = [
 ];
 
 console.log(listOfEmployees);
+console.log(listOfEmployees);
