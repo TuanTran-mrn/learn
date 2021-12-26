@@ -1,0 +1,1 @@
+[{"name":"tuan","age":25,"score":10},{"name":"nam","age":23,"score":10}]
