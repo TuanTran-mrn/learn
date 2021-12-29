@@ -1,0 +1,14 @@
+div.khoi1{
+    display: flex;
+    width: 600px;
+    height: 250px;
+}
+img.anh1{
+    width: 190px;
+    margin-right: 10px;
+    height: 100%;
+}
+img.anh2{
+    width: 400px;
+    height: 100%;
+}

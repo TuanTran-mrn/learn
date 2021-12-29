@@ -1,0 +1,15 @@
+h2 {
+    width: 550px;
+    margin-left: 500px;
+    font-family: 'Segoe UI light', Tahoma, Geneva, Verdana, sans-serif;
+}
+ div {
+     width: 550px;
+     margin-left: 500px;
+     font-size: larger;
+ }
+ li{
+     width: 500px;
+     margin-left: 500px;
+     color: rgb(119, 115, 115);
+ }
