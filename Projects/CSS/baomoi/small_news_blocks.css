@@ -19,12 +19,15 @@
     color: rgb(44, 42, 42);
     margin-bottom: 20px;
 }
-.news-right span.time{
+.news-right div span.time{
     color: rgb(170, 162, 162);
     margin-right: 12px;
 }
-.news-right a.right-under-2{
+.news-right div a.right-under-2{
     color: rgb(170, 162, 162);
+}
+.news-right div{
+    margin-top: 5px;
 }
 img.tienphong{
     width: 50px;
