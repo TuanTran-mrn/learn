@@ -1,0 +1,31 @@
+.bottom-menu{
+    width: 720px;
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottom-menu a.link{
+    display: flex;
+    height: 25px;
+    width: 140px;
+    text-decoration: none;
+    margin-bottom: 18px;
+    margin-right: 40px;
+}
+a.link img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    padding: 3px 3px 3px 3px;
+    transition: 0.4s;
+}
+a.link img:hover{
+    padding: 0px 0px 0px 0px;
+}
+a.link div{
+    padding-top: 4.5px;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 61, 61);
+    font-size: 13px;
+}

@@ -1,0 +1,29 @@
+.list-menu{
+    width: 1200px;
+    margin-left: 200px;
+    height: 36.8px;
+}
+.list-menu .menu-ngang{
+    display: flex;
+    margin-left: 0px;
+}
+.menu-ngang li{
+    list-style: none;
+    margin-left: 3px;
+    text-transform: uppercase;
+    background-color: rgb(238, 232, 232);
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: rgb(34, 33, 33);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.35s;
+}
+.menu-ngang li:hover{
+    background-color: rgb(79, 79, 223);
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 10px;
+}

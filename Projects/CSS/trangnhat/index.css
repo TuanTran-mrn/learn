@@ -1,0 +1,63 @@
+.list-menu{
+    width: 1200px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    height: 36.8px;
+}
+.list-menu .menu-ngang{
+    display: flex;
+    margin-left: 0px;
+}
+.menu-ngang li{
+    list-style: none;
+    margin-left: 3px;
+    text-transform: uppercase;
+    background-color: rgb(238, 232, 232);
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: rgb(34, 33, 33);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.35s;
+}
+.menu-ngang li:hover{
+    background-color: rgb(79, 79, 223);
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+
+
+.bottom-menu{
+    width: 800px;
+    margin-left: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottom-menu a.link{
+    display: flex;
+    height: 25px;
+    width: 140px;
+    text-decoration: none;
+    margin-bottom: 18px;
+    margin-right: 60px;
+}
+a.link img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    padding: 3px 3px 3px 3px;
+    transition: 0.4s;
+}
+a.link img:hover{
+    padding: 0px 0px 0px 0px;
+}
+a.link div{
+    padding-top: 4.5px;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 61, 61);
+    font-size: 13px;
+}
