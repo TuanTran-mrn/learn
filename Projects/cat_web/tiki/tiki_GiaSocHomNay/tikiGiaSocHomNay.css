@@ -1,0 +1,38 @@
+.giasochomnay{
+    background-color: rgb(205, 224, 224);
+    width: 1118px;
+    height: 60px;
+    margin-left: 200px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.giasochomnay a.time-sale{
+    margin-top: 19px;
+    margin-left: 740px;
+    text-decoration: none;
+}
+.giasochomnay img{
+    height: 28px;
+    margin-top: 16px;
+}
+.giasochomnay img.giasoc{
+    margin-left: 15px;
+}
+.giasochomnay a.time-sale span.time{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+    background-color: rgb(255, 66, 78);
+    color: white;
+    margin: 0px 4px;
+    padding: 0px 3px;
+    border-radius: 4px;
+}
+.giasochomnay a.time-sale span.hai-cham{
+    font-size: 15px;
+    color: rgb(119, 116, 116);
+}
+.giasochomnay a.time-sale i.fa-chevron-right{
+    color: rgb(160, 153, 153);
+}
