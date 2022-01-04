@@ -1,5 +1,8 @@
+body{
+    background-color: rgb(241, 228, 228);
+}
 .giasochomnay{
-    background-color: rgb(205, 224, 224);
+    background-color: rgb(255, 255, 255);
     width: 1118px;
     height: 60px;
     margin-left: 200px;

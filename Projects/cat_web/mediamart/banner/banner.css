@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(201, 196, 196);
+}
+
+.banner{
+    display: flex;
+    width: 1200px;
+    height: 360px;
+    margin-left: 160px;
+    margin-top: 100px;
+}
+
+.banner div.list-products{
+    width: 230px;
+    height: 100%;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+div.list-products div{
+    border: 1px soild rgb(0, 0, 0);
+    background-color: white;
+    width: 100%;
+    height: 30px;
+}
+div.list-products div i{
+    margin-left: 15px;
+}
+div.list-products div span{
+    margin-left: 3px;
+    font-size: 14px;
+    color: #333;
+    line-height: 30px;
+
+    transition: 0.2s;
+}
+div.list-products div span:hover{
+    font-weight: 750;
+}
+
+.banner div.slide{
+    width: 640px;
+    height: 100%;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+div.slide a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+div.slide .carousel-indicators li{
+    display: none;
+}
+
+.banner div.right-deal{
+    width: 310px;
+    height: 100%;
+}
+div.right-deal div.big-deal img{
+    width: 100%;
+    height: 115px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+div.right-deal div.small-deal{
+    width: 100%;
+}
+div.right-deal div.small-deal img{
+    width: 152.8px;
+    height: 115px;
+    border-radius: 6px;
+}
+div.right-deal div.small-deal div.small-deal-top{
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
