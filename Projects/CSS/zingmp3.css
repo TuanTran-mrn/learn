@@ -1,0 +1,69 @@
+.play-frame{
+    margin: auto;
+    width: 215px;
+    height: 215px;
+    position: relative;
+}
+.play-frame a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.play-frame a div.dim-layer{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: black;
+    opacity: 0;
+
+    position: absolute;
+    left: 0; top: 0;
+    transition: 0.5s;
+}
+.play-frame:hover a div.dim-layer{
+    opacity: 0.45;
+}
+
+.play-frame a i.fa-play-circle{
+    font-size: 61px;
+    color: white;
+    opacity: 0;
+
+    position: absolute;
+    left: 77px; top: 77px;
+    transition: 0.4s;
+    transform: scale(0);
+}
+.play-frame:hover a i.fa-play-circle{
+    opacity: 0.85;
+    transform: scale(1);
+}
+.play-frame a i.fa-heart{
+    font-size: 23px;
+    color: white;
+    opacity: 0;
+
+    position: absolute;
+    left: 23px; top: 96px;
+    transition: 0.4s;
+    transform: scale(0);
+}
+.play-frame:hover a i.fa-heart{
+    opacity: 0.85;
+    transform: scale(1);
+}
+.play-frame a i.fa-ellipsis-h{
+    font-size: 23px;
+    color: white;
+    opacity: 0;
+
+    position: absolute;
+    right: 23px; top: 96px;
+    transition: 0.4s;
+    transform: scale(0);
+}
+.play-frame:hover a i.fa-ellipsis-h{
+    opacity: 0.85;
+    transform: scale(1);
+}
