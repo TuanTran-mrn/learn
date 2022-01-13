@@ -1,0 +1,71 @@
+div.product{
+    width: 360px;
+    height: 360px;
+    position: relative;
+    margin: auto;
+}
+
+div.product a.link-product{
+    width: 100%;
+    height: 100%;
+}
+div.product a.link-product img.font{
+    width: 100%;
+    height: 100%;
+}
+div.product a.link-product div.white-font{
+    width: 330px;
+    height: 330px;
+    background-color: white;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    opacity: 0;
+    transition: 0.4s;
+}
+div.product:hover a.link-product div.white-font{
+    opacity: 0.7;
+}
+div.product a.link-product i.far{
+    font-size: 30px;
+    color: rgb(90, 88, 88);
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    opacity: 0;
+    transition: 0.4s;
+}
+div.product:hover a.link-product i.far{
+    opacity: 1;
+}
+div.product a.link-product div.content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: rgb(15, 15, 15);
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    left: 60px;
+    bottom: 50px;
+    opacity: 0;
+    transition: 0.4s;
+}
+div.product:hover a.link-product div.content{
+    opacity: 1;
+    bottom: 70px;
+    transition-delay: 0.15s;
+}
+
+div.product a.art-product div.note{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(126, 126, 126);
+    position: absolute;
+    left: 60px;
+    bottom: 45px;
+    opacity: 0;
+    transition: 0.4s;
+}
+div.product:hover a.art-product div.note{
+    opacity: 1;
+    transition-delay: 0.25s;
+}
